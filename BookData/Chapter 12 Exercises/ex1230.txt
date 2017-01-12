@@ -1,0 +1,3 @@
+'Rape','Provocative','Conservative','No Picture'
+'Yes',80,104,92
+'Not',47,12,17

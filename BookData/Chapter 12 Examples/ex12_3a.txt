@@ -1,0 +1,6 @@
+'State','Observed Frequency'
+'California',250
+'Virginia',56
+'Washington',34
+'Florida',33
+'Maryland',33

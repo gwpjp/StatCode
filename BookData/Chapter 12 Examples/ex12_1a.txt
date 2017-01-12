@@ -1,0 +1,9 @@
+'Lunar Phase','Observed','expected'
+'New moon',7680,7641.49
+'Waxing crescent',48442,48455.52
+'First quarter',7579,7641.49
+'Waxing gibbous',47814,47497.55
+'Full moon',7711,7641.49
+'Waning gibbous',47595,47809.45
+'Last quarter',7733,7641.49
+'Waning crescent',48230,48455.52

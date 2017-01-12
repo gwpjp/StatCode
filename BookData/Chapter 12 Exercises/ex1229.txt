@@ -1,0 +1,5 @@
+'Vehicle','Concord','Pleasant Hills','North San Fran'
+'Small',68,83,221
+'Compact',63,68,106
+'Midsize',88,123,142
+'Large',24,18,11

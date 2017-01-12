@@ -1,0 +1,5 @@
+'Col1','Piercings','Tattoos','Both Body','None'
+'Freshman',61,7,14,86
+'Sophomore',43,11,10,64
+'Junior',20,9,7,43
+'Senior',21,17,23,54

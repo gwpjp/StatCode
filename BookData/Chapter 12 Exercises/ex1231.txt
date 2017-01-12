@@ -1,0 +1,3 @@
+'Sex ID','Front','Profile','three-quarters'
+'Correct',23,26,29
+'Incorrect',17,14,11

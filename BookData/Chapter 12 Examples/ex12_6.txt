@@ -1,0 +1,4 @@
+'method','<5','>5'
+'In-Person',52,45
+'Online',44,53
+'Newsletter',27,70

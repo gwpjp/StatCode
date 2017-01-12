@@ -1,0 +1,5 @@
+'Col1','No Education','Secondary','Technical','Higher','University'
+'Died -actual',13,91,196,33,36
+'Surv-actual',97,397,959,232,279
+'Died - expected',17.4,77.18,182.68,41.91,49.82
+'Surv-expected',92.6,410.82,972.32,223.09,265.18

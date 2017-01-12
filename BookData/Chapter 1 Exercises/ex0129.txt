@@ -1,0 +1,7 @@
+'Reason','Percent'
+'No_exercise',38
+'junk_food',23
+'Genetics',12
+'unhealthy_food',9
+'Medical condition',8
+'Overeating',7

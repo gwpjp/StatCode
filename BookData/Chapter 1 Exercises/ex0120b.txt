@@ -1,0 +1,21 @@
+'Movie (2008)','Sales ($M) (2008)'
+'The Dark Knight',533.3
+'Iron Man',318.4
+'Indiana Jones and the Kingdomof the Crystal Skull',317.1
+'Hancock',227.9
+'WALL-E',223.8
+'Kung Fu Panda',215.4
+'Twilight',192.8
+'Madagascar: Escape 2 Africa',180
+'Quantum of Solace',168.4
+'Dr. Suess'' Horton Hears a Who!',154.5
+'Sex and the City',152.6
+'Gran Torino',148.1
+'Mamma Mia!',144.1
+'Maley and Me',143.2
+'The Chronicles of Narnia: Prince Caspian',141.6
+'Slumdog Millionaire',141.3
+'The Incredible Hulk',134.8
+'Wanted',134.5
+'Get Smart',130.3
+'The Curious Case of Benjamin Button',127.5

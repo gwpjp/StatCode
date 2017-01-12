@@ -1,0 +1,5 @@
+'Region','one or more','none'
+'Northeast',401,164
+'Midwest',162,36
+'South',408,115
+'West',104,23

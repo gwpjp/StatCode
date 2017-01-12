@@ -1,0 +1,20 @@
+'Food','Cost'
+'Chicken',1.8
+'Salmon',5.8
+'Turkey',1.5
+'Soybeans',3.1
+'Roast Beef',2.7
+'Cottage cheese',3.1
+'Ground beef',2.3
+'Ham',2.1
+'Lentils',3.3
+'Beans',2.9
+'Yogurt',5
+'Milk',2.5
+'Peas',5.2
+'Tofu',6.9
+'Cheddar Cheese',3.6
+'Nuts',5.2
+'Eggs',5.7
+'Peanut butter',1.8
+'Ice cream',5.3

@@ -1,0 +1,5 @@
+'sweet_drinks','overweight','not_overweight'
+'0',22,930
+'1',73,2074
+'2',56,1681
+'>= 3',102,3390

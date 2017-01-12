@@ -1,0 +1,5 @@
+'Type','male','female'
+'Violent',117,66
+'Property',150,160
+'Drug',109,168
+'Public-Order',124,106

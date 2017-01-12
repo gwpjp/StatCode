@@ -1,0 +1,9 @@
+'Time of Day','Number of Accidents'
+'Midnight to 3 a.m.',38
+'3 a.m. to 6 a.m.',29
+'6 a.m. to 9 a.m.',66
+'9 a.m. to Noon',77
+'Noon to 3 p.m.',99
+'3 p.m. to 6 p.m.',127
+'6 p.m. to 9 p.m.',166
+'9 p.m. to Midnight',113

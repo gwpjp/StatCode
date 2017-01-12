@@ -1,0 +1,13 @@
+'Sign','Policyholders'
+'Aquarius',35666
+'Aries',37926
+'Cancer',38126
+'Capricorn',54906
+'Gemini',37179
+'Leo',37354
+'Libra',37910
+'Pisces',36677
+'Sagittarius',34175
+'Scorpio',35352
+'Taurus',37179
+'Virgo',37718

@@ -1,0 +1,4 @@
+'Response','Preteen','teen'
+'Very effective',126,149
+'Somewhat effective',44,41
+'Not at all',51,26

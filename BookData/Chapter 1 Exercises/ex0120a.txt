@@ -1,0 +1,21 @@
+'Movie (2007)','Sales $M (2007)'
+'Spider-Man 3',336.5
+'Shrek the Third',322.7
+'Transformers',319.2
+'Pirates of the Carribean At Worlds End',309.4
+'Harry Potter and the Order of the Pheonix',292
+'I am Legend',256.4
+'The Bourne Ultimatum',227.5
+'National Treasure: Book of Secrets',220
+'Alvin and the Chipmunks',217.3
+'"300"',210.6
+'Ratatouille',206.4
+'The Simpsons Movie',183.1
+'Wild Hogs',168.3
+'Knocked Up',148.8
+'Juno',143.5
+'Rush Hour 3',140.1
+'Live Free or Die Hard',134.5
+'Fantastic Four: Rise of the Silver Surfer',131.9
+'American Gangster',130.2
+'Enchanted',127.8

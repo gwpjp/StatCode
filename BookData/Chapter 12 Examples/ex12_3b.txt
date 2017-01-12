@@ -1,0 +1,6 @@
+'State','2004','Population Proportion'
+'California',35842038,0.495
+'Virginia',7481332,0.103
+'Washington',6207046,0.085
+'Florida',17385430,0.24
+'Maryland',5561332,0.077

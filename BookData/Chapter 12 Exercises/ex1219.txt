@@ -1,0 +1,10 @@
+'Field of Study','Smoked','No Smoke'
+'1. Undeclared',176,489
+'2. Art, design, performing arts',149,336
+'3. Humanities',197,454
+'4. Communication, languages, cultural studies',233,389
+'5. Education',56,170
+'6. Health sciences',227,717
+'7. Mathematics, engineering, sciences',245,924
+'8. Social science, human services',306,593
+'9. Individualized course of study',134,260

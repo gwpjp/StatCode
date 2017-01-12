@@ -1,0 +1,6 @@
+'State','Observed Counts','Expected Counts'
+'California',250,200.97
+'Virginia',56,41.818
+'Washington',34,34.51
+'Florida',33,97.44
+'Maryland',33,31.262

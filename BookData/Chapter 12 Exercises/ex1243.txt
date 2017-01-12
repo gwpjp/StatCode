@@ -1,0 +1,5 @@
+'Region','Agree','Disagree'
+'Northeast',130,59
+'West',146,42
+'Midwest',211,52
+'South',291,47

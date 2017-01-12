@@ -1,0 +1,3 @@
+'Gender','Positive','Negative','Neutral'
+'Male',255,106,130
+'Female',85,12,49

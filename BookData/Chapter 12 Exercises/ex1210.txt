@@ -1,0 +1,13 @@
+'Month','Number of Accidents'
+'January',38
+'February',32
+'March',43
+'April',59
+'May',78
+'June',74
+'July',98
+'August',85
+'September',64
+'October',66
+'November',42
+'December',40

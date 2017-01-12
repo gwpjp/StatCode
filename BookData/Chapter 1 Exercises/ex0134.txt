@@ -1,0 +1,6 @@
+'Response','Frequency'
+'disagree_strongly',5
+'disagree',48
+'Not sure',90
+'agree',140
+'agree_strongly',39

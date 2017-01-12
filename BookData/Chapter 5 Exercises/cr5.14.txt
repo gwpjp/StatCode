@@ -1,0 +1,12 @@
+'Hospital','Inpatient','Outpatient'
+'Blue Mountain',80,62
+'Curry General',76,66
+'Good Shepherd',75,63
+'Grande Ronde',62,51
+'Harney District',100,54
+'Lake District',100,75
+'Pioneer',88,65
+'St. Anthony',64,56
+'St. Elizabeth',50,45
+'Tillamook',54,48
+'Wallowa Memorial',83,71

@@ -1,0 +1,6 @@
+'Type of Complaint','Percent of All Complaints'
+'Credit card fraud',28
+'Phone or utilities fraud',19
+'Bank fraud',18
+'Employment fraud',13
+'Other',22

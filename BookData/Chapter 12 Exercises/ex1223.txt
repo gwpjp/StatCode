@@ -1,0 +1,4 @@
+'Col1','Donation','No Donation'
+'No Gift',397,2865
+'Small Gift',465,2772
+'Large Gift',691,2656

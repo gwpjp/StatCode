@@ -1,0 +1,8 @@
+'Response','Frequency'
+'Fame and celebrity',94
+'Money',56
+'women_attraction',29
+'sports_enjoy',27
+'Easy_life',24
+'no_education',19
+'Other',19

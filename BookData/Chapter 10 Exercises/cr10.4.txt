@@ -1,0 +1,15 @@
+'City','Wait Time'
+'Atlanta',11.2
+'Boston',49.6
+'Dallas',19.2
+'Detroit',12
+'Houston',23.4
+'Los Angeles',24.2
+'Miami',15.4
+'Minneapolis',19.8
+'New York',19.2
+'Philadelphia',27
+'Portland',14.4
+'San Diego',20.2
+'Seattle',14.2
+'Washington, D.C.',22.6

@@ -1,0 +1,3 @@
+'Buyer Type','internal','external'
+'Compulsive',3,14
+'not-compulsive',52,57

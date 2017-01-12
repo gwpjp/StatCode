@@ -1,0 +1,4 @@
+'Hormone_use','Venous','No Venous'
+'none',372,1439
+'Esterified',86,515
+'Conjugated',121,289

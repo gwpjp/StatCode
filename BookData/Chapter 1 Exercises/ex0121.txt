@@ -1,0 +1,9 @@
+'Leaving_Reason','Frequency'
+'Financial',19
+'Health',12
+'Employment',8
+'Family_Issues',6
+'Break',4
+'Moving',2
+'Travel',2
+'Other',10

@@ -1,0 +1,6 @@
+'Type of Violation','Frequency (relative)'
+'Security',0.43
+'Maintenance',0.39
+'Flight operation',0.06
+'Hazardous materials',0.03
+'Other',0.09

@@ -1,0 +1,15 @@
+'University/College','enrollment','2005_crimes'
+'Florida A&M University',13067,23
+'Florida Atlantic University',25319,4
+'Florida Gulf Coast University',5955,4
+'Florida International University',34865,5
+'Florida State University',38431,29
+'New College of Florida',692,1
+'Pensacola Junior College',10879,2
+'Santa Fe Community College',13888,3
+'Tallahassee Community College',12775,0
+'University of Central Florida',42465,19
+'University of Florida',47993,17
+'University of North Florida',14533,6
+'University of South Florida',42238,19
+'University of West Florida',9518,1
