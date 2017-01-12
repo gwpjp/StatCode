@@ -75,7 +75,7 @@ ggsave(filename = paste(prefix,"8-NiceBarGraph(RF-Facets).jpeg",sep = ""))
 #Make pie chart
 ggplot(ex1v3,aes(x=factor(""),y=value,fill=Ideal.Distance)) + geom_bar(stat="identity") + coord_polar(theta="y") +
   labs(x="",y="Relative Frequency",title="How Far is Far Enough?") +
-  theme(plot.title = element_text(hjust = 0.5)) + 
+  theme(plot.title = element_text(hjust = 0.5), axis.ticks = element_blank()) + 
   scale_fill_discrete(name="Ideal Distance") +
   facet_grid(facets = ~ variable) 
 ggsave(filename = paste(prefix,"9-PieChart(Facets).jpeg",sep = ""))
