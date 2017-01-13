@@ -79,3 +79,32 @@ ggplot(ex1v3,aes(x=factor(""),y=value,fill=Ideal.Distance)) + geom_bar(stat="ide
   scale_fill_discrete(name="Ideal Distance") +
   facet_grid(facets = ~ variable) 
 ggsave(filename = paste(prefix,"9-PieChart(Facets).jpeg",sep = ""))
+
+#Example 3
+dfEx3 <- as.data.frame(array(c("1","2","3","4 or more","Don't Know")))
+colnames(dfEx3) <- "Number"
+dfEx3$Freq <- c(60,54,21,10,5)
+dfEx3$RFreq <- round(dfEx3$Freq/sum(dfEx3$Freq),digits = 2)
+ggplot(dfEx3,aes(x=factor(""),y=Freq,fill=Number)) + geom_bar(stat="identity")
+ggplot(dfEx3,aes(x = factor(""),y=RFreq,fill=Number)) + geom_bar(stat="identity") + coord_polar(theta = "y") + 
+  labs(x="", y = "Relative Frequency", title="Watch Those Typos") + 
+  theme(plot.title = element_text(hjust = 0.5))
+
+#-----------------------------
+#Section 3.4
+#Scatter plot
+str(mtcars)
+ggplot(mtcars,aes(wt,mpg)) + geom_point() + labs(x="Weight",y="Miler per Gallon")
+mtcars$gear <- factor(mtcars$gear)
+mtcars$cyl <- factor(mtcars$cyl)
+ggplot(mtcars,aes(x = wt,y = mpg, color = gear)) + geom_point() + labs(x="Weight",y="Miler per Gallon")
+ggplot(mtcars,aes(x = wt,y = mpg, color = cyl)) + geom_point() + labs(x="Weight",y="Miler per Gallon") + 
+  facet_grid(facets = . ~ gear) 
+
+#Scatter plots with lots of data
+str(diamonds)
+ggplot(diamonds,aes(x=carat,y=price)) + geom_point(alpha=.05)
+
+#Line Graph
+str(economics)
+ggplot(economics,aes(x=date,y=pop)) + geom_line() + labs(x="Date",y="Population")
