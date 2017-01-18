@@ -94,11 +94,11 @@ ggplot(dfEx3,aes(x = factor(""),y=RFreq,fill=Number)) + geom_bar(stat="identity"
 #Section 3.4
 #Scatter plot
 str(mtcars)
-ggplot(mtcars,aes(wt,mpg)) + geom_point() + labs(x="Weight",y="Miler per Gallon")
+ggplot(mtcars,aes(wt,mpg)) + geom_point() + labs(x="Weight",y="Miles per Gallon")
 mtcars$gear <- factor(mtcars$gear)
 mtcars$cyl <- factor(mtcars$cyl)
-ggplot(mtcars,aes(x = wt,y = mpg, color = gear)) + geom_point() + labs(x="Weight",y="Miler per Gallon")
-ggplot(mtcars,aes(x = wt,y = mpg, color = cyl)) + geom_point() + labs(x="Weight",y="Miler per Gallon") + 
+ggplot(mtcars,aes(x = wt,y = mpg, color = gear)) + geom_point() + labs(x="Weight",y="Miles per Gallon")
+ggplot(mtcars,aes(x = wt,y = mpg, color = cyl)) + geom_point() + labs(x="Weight",y="Miles per Gallon") + 
   facet_grid(facets = . ~ gear) 
 
 #Scatter plots with lots of data
