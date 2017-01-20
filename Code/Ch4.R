@@ -1,6 +1,6 @@
 library(ggplot2)
 #Example 4.9
-df <- read.csv("ex4_9.txt")
+df <- read.csv("../BookData/Chapter\ 4\ Examples/ex4_9.txt")
 colnames(df) <- "Bachelors"
 summary(df)
 df$Bachelors <- sort(df$Bachelors)
@@ -14,7 +14,19 @@ ggplot(df,aes(x=Bachelors,y=factor(1))) + geom_jitter(height = .05) + ylab("")
 #Making a box plot
 ggplot(df,aes(x=factor(1),y=Bachelors)) + geom_boxplot() + xlab("")
 ggplot(df,aes(x=factor(1),y=Bachelors)) + geom_boxplot(width = .1) + xlab("") + coord_flip()
-
+#Checking the values
+summary(df)
+IQR <- 30 - 24
+24-1.5*IQR #15, but drawn only to the minimum of 17
+30+1.5*IQR #39, but drawn only to the highest value 38
+#Making some changes
+df$Bachelors[1] <- 14
+ggplot(df,aes(x=factor(1),y=Bachelors)) + geom_boxplot(width = .1) + xlab("") + coord_flip()
+df$Bachelors[50] <- 40
+ggplot(df,aes(x=factor(1),y=Bachelors)) + geom_boxplot(width = .1) + xlab("") + coord_flip()
+df$Bachelors[51] <- 100 #Note: R doesn't distinguish between suspected outliers and 'real' outliers
+ggplot(df,aes(x=factor(1),y=Bachelors)) + geom_boxplot(width = .1) + xlab("") + coord_flip()
+summary(df)
 
 #Example 4.13 (Modified for 2016-2017 Salaries)
 #Data courtesy of hoopshype.com
