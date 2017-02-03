@@ -27,7 +27,7 @@ ggplot(mx,aes(x = mx)) + geom_histogram(aes(y=..count../max(..count..))) + labs(
 mean(mx$mx)
 #Repeat for samples of size 20
 n <- 20
-L <- 5000
+L <- 500
 mn <- array(dim = L)
 mn2 <- array(dim = L)
 mx <- array(dim = L)
@@ -48,20 +48,38 @@ ggplot(mx,aes(x = mx)) + geom_histogram(aes(y=..count../max(..count..))) + labs(
 mean(mx$mx)
 
 #Now try to compute the value directly
-OrderStat <- function(f,n,r){
-  F <- function(z) {
-    integrate(f,-Inf,z)[[1]]
+fCDF <- function(f){
+  function(x){
+    integrate(f,-Inf,x)[[1]]
   }
+}
+OrderStat <- function(f,n,r){
   function(y){
-    factorial(n)/(factorial(r-1)*factorial(n-r))*f(y)*(F(y))^(r-1)*(1-F(y))^(n-r)
+    factorial(n)/(factorial(r-1)*factorial(n-r))*f(y)*(fCDF(f)(y))^(r-1)*(1-fCDF(f)(y))^(n-r)
   }
 }
 
-#For exponential distribution
-expDist <- function(x,l){.5*(exp(-l*x)+x/abs(x)*exp(-l*x))}
-exp1 <- function(x){expDist(x,1)}
-ggplot(data.frame(x = c(-5, 5)), aes(x)) + stat_function(fun = exp1)
-ggplot(data.frame(x = c(-5, 5)), aes(x)) + stat_function(fun = OrderStat(exp1,10,1)) +
-  stat_function(fun = function(x){10*expDist(10*x,1)},color = "red")
+#For normal distribution
+n <- 20
+df <- data.frame(seq(-5,5,by=.1))
+colnames(df) <- "x"
+df$y <- Vectorize(OrderStat(dnorm,n,1))(df$x)
+ggplot(df,aes(x=x,y=y)) + geom_point()
+#Order Statistics
+os <- data.frame(1:n)
+colnames(os) <- "r"
+os$val <- sapply(os$r,function(z){
+  integrate(function(x){x*Vectorize(OrderStat(dnorm,n,z))(x)},lower = -Inf,upper = Inf)[[1]]
+  })
+os
+ggplot(os,aes(x=r,y=val)) + geom_bar(stat="identity", fill = "orange") +
+  labs(title = paste("Order Statistics for n =",n), x = "rth Order Statistic", y = "Value of Order Statistic") +
+  theme(plot.title = element_text(hjust = 0.5))
 
+orderStats <- function(f,n) {
+  sapply(1:n,function(z){
+    integrate(function(x){x*Vectorize(OrderStat(f,n,z))(x)},lower = -Inf,upper = Inf)[[1]]
+  })
+}
 
+orderStats(dnorm,10)
