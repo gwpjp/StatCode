@@ -1,3 +1,4 @@
+library(ggplot2)
 #Generate normal distribution
 set.seed(100)
 N <- 1000000
